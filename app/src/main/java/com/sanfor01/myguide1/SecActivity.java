@@ -17,9 +17,17 @@ public class SecActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sec);
 
+
+
+
+
         View play1 = findViewById(R.id.play1);
         View inv_friends = findViewById(R.id.inv_friends);
         View rateApp = findViewById(R.id.rateapp);
+
+
+
+
 
 
         play1.setOnClickListener(new View.OnClickListener() {
@@ -66,13 +74,13 @@ public class SecActivity extends AppCompatActivity {
 
 
 
-        View letsPlay = findViewById(R.id.back1);
-        letsPlay.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent back1 = new Intent(SecActivity.this, MainActivity.class);
-                startActivity(back1);
-            }
-        });
+        //View letsPlay = findViewById(R.id.back1);
+        //.setOnClickListener(new View.OnClickListener() {
+            //@Override
+            //public void onClick(View view) {
+                //Intent back1 = new Intent(SecActivity.this, MainActivity.class);
+                //startActivity(back1);
+            //}
+        //});
     }
 }
